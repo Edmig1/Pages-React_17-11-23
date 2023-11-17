@@ -11,6 +11,11 @@
 .esquerda{
     text-align: center;
     align-items: center;
+    animation-name: entrada;
+    animation-duration: 2s;
+    overflow: hidden;
+
+
 }
 
 .esquerda img{
@@ -45,6 +50,10 @@
 
 .direita{
     text-align: center;
+    animation-name: entrada;
+    animation-duration: 2s;
+    overflow: hidden;
+
 }
 
 
@@ -54,4 +63,14 @@
 
 .videos:hover{
     transform: scale(1.15);
+}
+
+
+@keyframes entrada{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 80%;
+    }
 }
