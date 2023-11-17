@@ -10,4 +10,17 @@
     margin: 0;
     padding: 30px 10%;
     font-size: 50px;
+    animation-name: add;
+    animation-duration: 2s;
+}
+
+@keyframes add {
+    0% {
+        opacity: 0;
+        padding: 100px 10%;
+    }
+    100% {
+        opacity: 1;
+        padding: 30px 10%;
+    }
 }

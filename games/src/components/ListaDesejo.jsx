@@ -14,7 +14,7 @@ function ListaDesejo (props) {
 
                 <div className={s.din}>
                     <p>{props.preco}</p>
-                    <a href="">Descrição</a>
+                    <Link to={"/jogo/" + props.game}>descrição</Link>
                 </div>
             </div>
         </div>

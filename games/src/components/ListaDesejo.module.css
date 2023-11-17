@@ -6,6 +6,20 @@
     border-radius: 10px;
     align-items: center;
     margin-top: 45px;
+
+    animation-name: entrada;
+    animation-duration: 1s;
+}
+
+@keyframes  entrada{
+    0%{
+        margin-top: 250px;
+        opacity: 0.1;
+    }
+    100% {
+        margin-top: 45px;
+        opacity: 1
+    }
 }
 
 .imgDiv img {
