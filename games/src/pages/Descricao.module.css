@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
+
+.main{
+    background-color: #15181E;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Artifika', serif;
+
+}
+
+.esquerda{
+    text-align: center;
+    align-items: center;
+}
+
+.esquerda img{
+    max-height: 350px;
+
+}
+
+.esquerda h1{
+    font-size: 40px;
+}
+
+
+.direita p ,
+.direita h2{
+    color: white;
+}
