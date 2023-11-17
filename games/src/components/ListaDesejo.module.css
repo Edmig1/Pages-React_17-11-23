@@ -64,6 +64,7 @@
 }
 
 .din a {
+    transition: 0.5s;
     background-color: #FCA311;
     text-decoration: none;
     color: black;
@@ -75,5 +76,9 @@
     justify-content: center;
     font-weight: bold;
     width: 85px;
+}
+
+.din a:hover {
+    background-color: #BE7B0C;
 }
 
