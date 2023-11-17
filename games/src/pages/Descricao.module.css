@@ -3,7 +3,7 @@
 .main{
     background-color: #15181E;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     font-family: 'Artifika', serif;
 
 }
@@ -25,5 +25,33 @@
 
 .direita p ,
 .direita h2{
+    color: rgb(95, 95, 95);
+    transition: 0.5s ease-in;
+
+}
+
+.direita h2:hover {
     color: white;
+    transition-duration: 800ms;
+
+}
+
+.direita p:hover {
+    color: white;
+    transition-duration: 800ms;
+
+
+}
+
+.direita{
+    text-align: center;
+}
+
+
+.videos{
+    transition: 0.5s ease-in;
+}
+
+.videos:hover{
+    transform: scale(1.15);
 }
