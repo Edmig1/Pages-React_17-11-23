@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+h1{
+    font-size: 3em;
+    color: #FCA311;
+}
+nav{
+    display: flex;
+    gap: 2em;
+}
+.link{
+    text-decoration: none;
+}
