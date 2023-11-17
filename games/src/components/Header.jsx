@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 function Header(){
     return(
         <header className={s.header}>
-            <h1>RAGE GAMES</h1>
+            <img src="./logo.png" style={{width:'6%'}} alt=""/>
             <nav>
                 <Link className={s.link} to={''}>Home</Link>
                 <Link className={s.link} to={''}>Promoções</Link>
