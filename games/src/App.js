@@ -11,6 +11,7 @@ function App() {
           <Header></Header>
         <Routes>
             <Route path="/jogo/:jogo" element={<Descricao />} />
+            <Route path="/desejos" element={<Desejo />} />
         </Routes>
           <Desejo></Desejo>
       </BrowserRouter>
