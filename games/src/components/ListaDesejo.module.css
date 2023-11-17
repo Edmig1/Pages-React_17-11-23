@@ -1,0 +1,12 @@
+.card {
+    display: flex;
+    background-color: #24272C; /*jghjg */
+}
+
+.imgDiv {
+    width: 347px;
+}
+
+.imgDiv img {
+    height: 100%;
+}
