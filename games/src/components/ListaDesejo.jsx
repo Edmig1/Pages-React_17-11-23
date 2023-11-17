@@ -13,7 +13,7 @@ function ListaDesejo (props) {
                 </div>
 
                 <div className={s.din}>
-                    <p>R${props.preco}</p>
+                    <p>{props.preco}</p>
                     <a href="">Descrição</a>
                 </div>
             </div>

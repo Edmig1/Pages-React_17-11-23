@@ -1,3 +1,13 @@
 .content {
     margin-left: 10%;
 }
+
+.todo {
+    background-color: #15181E;
+}
+
+.todo h1{
+    margin: 0;
+    padding: 30px 10%;
+    font-size: 50px;
+}
