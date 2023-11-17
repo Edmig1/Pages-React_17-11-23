@@ -1,0 +1,46 @@
+.divcard{
+    height: 420px;
+    background-color: #24272C;
+    width: 500px;
+    position: relative;
+}
+.divimg{
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.desc{
+    width: 100%;
+    padding-left: 4%;
+    position: relative;
+}
+.texto{
+    color: #FCA311;
+    font-size: 1.3em;
+    margin: 7px 0px;
+    font-weight: bolder;
+}
+.financeiro{
+    padding-top: 20px ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+.porcento{
+    width: 15%;
+    max-height: 100%;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #42d00b;
+}
+.precos{
+    display: flex;
+    flex-direction: column;
+    background-color: #277c06;
+    height: 51.3px;
+}
+.precos p{
+    margin: 0;
+}

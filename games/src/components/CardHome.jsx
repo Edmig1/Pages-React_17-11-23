@@ -10,7 +10,7 @@ function CardHome(props){
                     <p className={s.titulocard}>{props.nome}</p>
                     <p className={s.textocard}>{props.texto}</p>
                 </div>
-                <Link className={s.cardbtn} to={''}>Adquirir</Link>
+                <Link className={s.cardbtn} to={props.link}>Adquirir</Link>
             </div>
         </div>
     )

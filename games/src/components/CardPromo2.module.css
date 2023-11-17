@@ -1,0 +1,18 @@
+.divcard{
+    height: 200px;
+    background-color: #24272C;
+    width: 350px;
+}
+.divimg{
+    height: 60%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.desc{
+    padding: 0px 4%;
+}
+.texto{
+    color: #FCA311;
+    font-weight: bolder;
+}
