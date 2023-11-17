@@ -1,0 +1,21 @@
+.page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.title h1 {
+    font-size: 80px;
+    width: 40%;
+    margin-left: 7%;
+}
+
+.img {
+    position: absolute;
+    right: 200px;
+}
+
+.img img{
+    width: 400px;
+}
