@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import Descricao from "./pages/Descricao";
 import Desejo from "./pages/Desejo";
+import NotFoundPage from "./pages/NotFoundPage";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Route path={'/'} element={<Home/>}/>
             <Route path="/jogo/:jogo" element={<Descricao />} />
             <Route path="/desejos" element={<Desejo />} />
+            <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
   );
