@@ -7,13 +7,15 @@ function ListaDesejo (props) {
                 <img src={props.img}/>
             </div>
 
-            <div className={s.title}>
-                <p>{props.title}</p>
-            </div>
+            <div className={s.tudo}>
+                <div className={s.title}>
+                    <p>{props.title}</p>
+                </div>
 
-            <div className={s.din}>
-                <p>{props.preco}</p>
-                <Link to={}>Detalhes</Link>
+                <div className={s.din}>
+                    <p>R${props.preco}</p>
+                    <a href="">Descrição</a>
+                </div>
             </div>
         </div>
     )
