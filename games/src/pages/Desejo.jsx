@@ -6,7 +6,10 @@ function Desejo () {
     return (
         <div>
             <h1>Lista de desejos</h1>
-            <div>
+            <div className={s.content}>
+                <ListaDesejo></ListaDesejo>
+                <ListaDesejo></ListaDesejo>
+                <ListaDesejo></ListaDesejo>
             </div>
         </div>
 
