@@ -7,7 +7,7 @@ function Promocao(){
         <div className={s.divtotal}>
             <CardPromo img='/ea.webp' oferta='Oferta da Distribuidora'></CardPromo>
             <div className={s.CardP}>
-                <CardPromo2 img='/brawl.jpg' oferta='All Legends Pack'></CardPromo2>
+                <CardPromo2 img='/Brawl.jpg' oferta='All Legends Pack'></CardPromo2>
                 <CardPromo2 img='/mkt.jpg' oferta='Oferta do dia'></CardPromo2>
             </div>
         </div>
