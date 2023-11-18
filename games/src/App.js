@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Descricao from "./pages/Descricao";
 import Desejo from "./pages/Desejo";
 import Promocao from "./pages/Promocao";
+import NotFoundPage from "./pages/NotFoundPage";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path="/jogo/:jogo" element={<Descricao />} />
             <Route path="/desejos" element={<Desejo />} />
             <Route path="/promo" element={<Promocao />} />
+            <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
   );
